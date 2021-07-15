@@ -1,0 +1,16 @@
+{{template "base" .}}
+{{define "content"}}
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Home page</h1>
+                <p>some text 1</p>
+                <p>some text 2</p>
+                <p>some text 3</p>
+                <p>some text 4</p>
+                {{ .StringMap.greeting }}
+
+            </div>
+        </div>
+    </div>
+{{end}}
